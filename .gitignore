@@ -1,0 +1,16 @@
+.DS_Store
+.idea/
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+instance/
+*.db
+
+# Keep the default avatar, but ignore user-uploaded profile pictures.
+flask_app/static/profile_pics/*
+!flask_app/static/profile_pics/default.jpg
